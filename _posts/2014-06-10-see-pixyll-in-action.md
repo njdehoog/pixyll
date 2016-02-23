@@ -123,6 +123,4 @@ hopefully sidestep this inconvenience.
   <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
 </blockquote>
 
----
-
 [^1]: Important information that may distract from the main text can go in footnotes.
