@@ -18,7 +18,7 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Here's an example of some ruby code with line anchors.
 
-{% highlight ruby lineanchors %}
+```ruby
 # The most awesome of classes
 class Awesome < ActiveRecord::Base
   include EvenMoreAwesome
@@ -37,20 +37,20 @@ class Awesome < ActiveRecord::Base
     email =~ /\S+@\S+\.\S+/
   end
 end
-{% endhighlight %}
+```
 
 Here's some CSS:
 
-{% highlight css %}
+```css
 .foobar {
   /* Named colors rule */
   color: tomato;
 }
-{% endhighlight %}
+```
 
 Here's some JavaScript:
 
-{% highlight js %}
+```js
 var isPresent = require('is-present')
 
 module.exports = function doStuff(things) {
@@ -58,15 +58,15 @@ module.exports = function doStuff(things) {
     doOtherStuff(things)
   }
 }
-{% endhighlight %}
+```
 
 Here's some HTML:
 
-{% highlight html %}
+```html
 <div class="m0 p0 bg-blue white">
   <h3 class="h1">Hello, world!</h3>
 </div>
-{% endhighlight %}
+```
 
 # Headings!
 
@@ -122,13 +122,6 @@ hopefully sidestep this inconvenience.
   </p>
   <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
 </blockquote>
-
-### There's more being added all the time
-
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to request,
-or add, features.
-
-Happy writing.
 
 ---
 
