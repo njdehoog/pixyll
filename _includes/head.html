@@ -30,6 +30,10 @@
     </script>
     {% endif %}
 
+    <!-- Code highlighting using highlight.js: https://highlightjs.org/ -->
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <!-- Verifications -->
     {% if site.google_verification %}
       <meta name="google-site-verification" content="{{ site.google_verification }}" />
