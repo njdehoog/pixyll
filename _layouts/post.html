@@ -12,7 +12,7 @@ layout: default
   {% if page.minutes %}
     {{ page.minutes }} {{ site.text.post.minute_read }}
   {% else %}
-    {{ content | strip_html | number_of_words | divided_by: 180 }} {{ site.text.post.minute_read }}
+    {{ content | strip_html | number_of_words | divided_by: 180 | ceil }} {{ site.text.post.minute_read }}
   {% endif %}
   </span>
 </div>
