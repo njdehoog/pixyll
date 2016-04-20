@@ -3,7 +3,6 @@ title:       Your Blog Title
 email:       your_email@example.com
 author:      Author Name
 description: "A simple, beautiful theme that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
 url:         "http://example.com"
 date_format: "MMM dd, yyyy"
 paginate: 5
